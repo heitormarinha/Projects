@@ -1,0 +1,15 @@
+E:\System folder\Documentos\C# Projects\Second project - chapter 02\Basics\bin\Debug\net6.0\Basics.exe
+E:\System folder\Documentos\C# Projects\Second project - chapter 02\Basics\bin\Debug\net6.0\Basics.deps.json
+E:\System folder\Documentos\C# Projects\Second project - chapter 02\Basics\bin\Debug\net6.0\Basics.runtimeconfig.json
+E:\System folder\Documentos\C# Projects\Second project - chapter 02\Basics\bin\Debug\net6.0\Basics.dll
+E:\System folder\Documentos\C# Projects\Second project - chapter 02\Basics\bin\Debug\net6.0\ref\Basics.dll
+E:\System folder\Documentos\C# Projects\Second project - chapter 02\Basics\bin\Debug\net6.0\Basics.pdb
+E:\System folder\Documentos\C# Projects\Second project - chapter 02\Basics\obj\Debug\net6.0\Basics.csproj.AssemblyReference.cache
+E:\System folder\Documentos\C# Projects\Second project - chapter 02\Basics\obj\Debug\net6.0\Basics.GeneratedMSBuildEditorConfig.editorconfig
+E:\System folder\Documentos\C# Projects\Second project - chapter 02\Basics\obj\Debug\net6.0\Basics.AssemblyInfoInputs.cache
+E:\System folder\Documentos\C# Projects\Second project - chapter 02\Basics\obj\Debug\net6.0\Basics.AssemblyInfo.cs
+E:\System folder\Documentos\C# Projects\Second project - chapter 02\Basics\obj\Debug\net6.0\Basics.csproj.CoreCompileInputs.cache
+E:\System folder\Documentos\C# Projects\Second project - chapter 02\Basics\obj\Debug\net6.0\Basics.dll
+E:\System folder\Documentos\C# Projects\Second project - chapter 02\Basics\obj\Debug\net6.0\ref\Basics.dll
+E:\System folder\Documentos\C# Projects\Second project - chapter 02\Basics\obj\Debug\net6.0\Basics.pdb
+E:\System folder\Documentos\C# Projects\Second project - chapter 02\Basics\obj\Debug\net6.0\Basics.genruntimeconfig.cache
