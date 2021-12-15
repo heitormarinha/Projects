@@ -2,3 +2,7 @@
 object height = 1.88; // Storing a douible in an object
 object name = "Amir"; // Storing a string in an object
 Console.WriteLine($"{name} is {height} metres tall."); // String interpoled
+
+int lenght1 = name.Lenght; // It gives a error because the compiler doen't know if the object is a string
+int lenght2 = ((string)name).Length; // It tell the compiler that the object is a string
+Console.WriteLine($"{name} has {length2} charecter"); // It is a interpoled string and lenght2 was assigned with a reference value instead a literal value
