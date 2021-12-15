@@ -7,8 +7,4 @@ build_property.InvariantGlobalization =
 build_property.PlatformNeutralAssembly = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Variable
-<<<<<<< HEAD
-build_property.ProjectDir = e:\System folder\Documentos\C# Projects\Second project - chapter 02\Variable\
-=======
-build_property.ProjectDir = e:\System folder\Documentos\C# Projects\C-Projects\Second project - chapter 02\Variable\
->>>>>>> ae49282848d8a9364522a0e192957893c4f5a275
+build_property.ProjectDir = E:\System folder\Documentos\CSProjects\Second project - chapter 02\Variable\

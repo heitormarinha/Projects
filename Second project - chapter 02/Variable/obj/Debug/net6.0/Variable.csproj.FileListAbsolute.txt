@@ -13,3 +13,18 @@ E:\System folder\Documentos\C# Projects\Second project - chapter 02\Variable\obj
 E:\System folder\Documentos\C# Projects\Second project - chapter 02\Variable\obj\Debug\net6.0\ref\Variable.dll
 E:\System folder\Documentos\C# Projects\Second project - chapter 02\Variable\obj\Debug\net6.0\Variable.pdb
 E:\System folder\Documentos\C# Projects\Second project - chapter 02\Variable\obj\Debug\net6.0\Variable.genruntimeconfig.cache
+E:\System folder\Documentos\CSProjects\Second project - chapter 02\Variable\obj\Debug\net6.0\Variable.csproj.AssemblyReference.cache
+E:\System folder\Documentos\CSProjects\Second project - chapter 02\Variable\obj\Debug\net6.0\Variable.GeneratedMSBuildEditorConfig.editorconfig
+E:\System folder\Documentos\CSProjects\Second project - chapter 02\Variable\obj\Debug\net6.0\Variable.AssemblyInfoInputs.cache
+E:\System folder\Documentos\CSProjects\Second project - chapter 02\Variable\obj\Debug\net6.0\Variable.AssemblyInfo.cs
+E:\System folder\Documentos\CSProjects\Second project - chapter 02\Variable\obj\Debug\net6.0\Variable.csproj.CoreCompileInputs.cache
+E:\System folder\Documentos\CSProjects\Second project - chapter 02\Variable\obj\Debug\net6.0\Variable.dll
+E:\System folder\Documentos\CSProjects\Second project - chapter 02\Variable\obj\Debug\net6.0\ref\Variable.dll
+E:\System folder\Documentos\CSProjects\Second project - chapter 02\Variable\obj\Debug\net6.0\Variable.pdb
+E:\System folder\Documentos\CSProjects\Second project - chapter 02\Variable\bin\Debug\net6.0\Variable.exe
+E:\System folder\Documentos\CSProjects\Second project - chapter 02\Variable\bin\Debug\net6.0\Variable.deps.json
+E:\System folder\Documentos\CSProjects\Second project - chapter 02\Variable\bin\Debug\net6.0\Variable.runtimeconfig.json
+E:\System folder\Documentos\CSProjects\Second project - chapter 02\Variable\bin\Debug\net6.0\Variable.dll
+E:\System folder\Documentos\CSProjects\Second project - chapter 02\Variable\bin\Debug\net6.0\ref\Variable.dll
+E:\System folder\Documentos\CSProjects\Second project - chapter 02\Variable\bin\Debug\net6.0\Variable.pdb
+E:\System folder\Documentos\CSProjects\Second project - chapter 02\Variable\obj\Debug\net6.0\Variable.genruntimeconfig.cache

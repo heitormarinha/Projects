@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\System folder\\Documentos\\C# Projects\\Second project - chapter 02\\Variable\\Variable.csproj",
+      "projectUniqueName": "E:\\System folder\\Documentos\\CSProjects\\Second project - chapter 02\\Variable\\Variable.csproj",
       "projectName": "Variable",
-      "projectPath": "E:\\System folder\\Documentos\\C# Projects\\Second project - chapter 02\\Variable\\Variable.csproj",
+      "projectPath": "E:\\System folder\\Documentos\\CSProjects\\Second project - chapter 02\\Variable\\Variable.csproj",
       "packagesPath": "C:\\Users\\12135194\\.nuget\\packages\\",
-      "outputPath": "E:\\System folder\\Documentos\\C# Projects\\Second project - chapter 02\\Variable\\obj\\",
+      "outputPath": "E:\\System folder\\Documentos\\CSProjects\\Second project - chapter 02\\Variable\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\12135194\\AppData\\Roaming\\NuGet\\NuGet.Config"
