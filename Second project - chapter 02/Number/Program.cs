@@ -22,4 +22,10 @@ int hexadecimalNotation = 0x_001E_8480;
 // Both the following output of the statements are "true".
 Console.WriteLine($"{decimalNotation == binaryNotation}");
 Console.WriteLine(   $"{decimalNotation == hexadecimalNotation}");
-//test
+
+// The sizeof return the value in bytes that the variable need in memory.
+// Range of possible numbers in int variable
+Console.WriteLine($"The int  variable uses {sizeof(int)} bytes and can store numbers in the range {int.MinValue:N0} to {int.MaxValue:N0}.");
+
+// Range of possible numbers in double variable
+ Console.WriteLine($"The double variable uses {sizeof(double)} bytes and can store numbers in the range {double.MinValue:N0} to {double.MaxValue:N0}.");
