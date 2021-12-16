@@ -1,0 +1,15 @@
+E:\System folder\Documentos\CSProjects\Second project - chapter 02\Arrays\bin\Debug\net6.0\Arrays.exe
+E:\System folder\Documentos\CSProjects\Second project - chapter 02\Arrays\bin\Debug\net6.0\Arrays.deps.json
+E:\System folder\Documentos\CSProjects\Second project - chapter 02\Arrays\bin\Debug\net6.0\Arrays.runtimeconfig.json
+E:\System folder\Documentos\CSProjects\Second project - chapter 02\Arrays\bin\Debug\net6.0\Arrays.dll
+E:\System folder\Documentos\CSProjects\Second project - chapter 02\Arrays\bin\Debug\net6.0\ref\Arrays.dll
+E:\System folder\Documentos\CSProjects\Second project - chapter 02\Arrays\bin\Debug\net6.0\Arrays.pdb
+E:\System folder\Documentos\CSProjects\Second project - chapter 02\Arrays\obj\Debug\net6.0\Arrays.csproj.AssemblyReference.cache
+E:\System folder\Documentos\CSProjects\Second project - chapter 02\Arrays\obj\Debug\net6.0\Arrays.GeneratedMSBuildEditorConfig.editorconfig
+E:\System folder\Documentos\CSProjects\Second project - chapter 02\Arrays\obj\Debug\net6.0\Arrays.AssemblyInfoInputs.cache
+E:\System folder\Documentos\CSProjects\Second project - chapter 02\Arrays\obj\Debug\net6.0\Arrays.AssemblyInfo.cs
+E:\System folder\Documentos\CSProjects\Second project - chapter 02\Arrays\obj\Debug\net6.0\Arrays.csproj.CoreCompileInputs.cache
+E:\System folder\Documentos\CSProjects\Second project - chapter 02\Arrays\obj\Debug\net6.0\Arrays.dll
+E:\System folder\Documentos\CSProjects\Second project - chapter 02\Arrays\obj\Debug\net6.0\ref\Arrays.dll
+E:\System folder\Documentos\CSProjects\Second project - chapter 02\Arrays\obj\Debug\net6.0\Arrays.pdb
+E:\System folder\Documentos\CSProjects\Second project - chapter 02\Arrays\obj\Debug\net6.0\Arrays.genruntimeconfig.cache
