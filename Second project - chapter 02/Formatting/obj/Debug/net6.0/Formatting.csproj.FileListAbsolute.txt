@@ -1,0 +1,15 @@
+E:\System folder\Documentos\CSProjects\Second project - chapter 02\Formatting\bin\Debug\net6.0\Formatting.exe
+E:\System folder\Documentos\CSProjects\Second project - chapter 02\Formatting\bin\Debug\net6.0\Formatting.deps.json
+E:\System folder\Documentos\CSProjects\Second project - chapter 02\Formatting\bin\Debug\net6.0\Formatting.runtimeconfig.json
+E:\System folder\Documentos\CSProjects\Second project - chapter 02\Formatting\bin\Debug\net6.0\Formatting.dll
+E:\System folder\Documentos\CSProjects\Second project - chapter 02\Formatting\bin\Debug\net6.0\ref\Formatting.dll
+E:\System folder\Documentos\CSProjects\Second project - chapter 02\Formatting\bin\Debug\net6.0\Formatting.pdb
+E:\System folder\Documentos\CSProjects\Second project - chapter 02\Formatting\obj\Debug\net6.0\Formatting.csproj.AssemblyReference.cache
+E:\System folder\Documentos\CSProjects\Second project - chapter 02\Formatting\obj\Debug\net6.0\Formatting.GeneratedMSBuildEditorConfig.editorconfig
+E:\System folder\Documentos\CSProjects\Second project - chapter 02\Formatting\obj\Debug\net6.0\Formatting.AssemblyInfoInputs.cache
+E:\System folder\Documentos\CSProjects\Second project - chapter 02\Formatting\obj\Debug\net6.0\Formatting.AssemblyInfo.cs
+E:\System folder\Documentos\CSProjects\Second project - chapter 02\Formatting\obj\Debug\net6.0\Formatting.csproj.CoreCompileInputs.cache
+E:\System folder\Documentos\CSProjects\Second project - chapter 02\Formatting\obj\Debug\net6.0\Formatting.dll
+E:\System folder\Documentos\CSProjects\Second project - chapter 02\Formatting\obj\Debug\net6.0\ref\Formatting.dll
+E:\System folder\Documentos\CSProjects\Second project - chapter 02\Formatting\obj\Debug\net6.0\Formatting.pdb
+E:\System folder\Documentos\CSProjects\Second project - chapter 02\Formatting\obj\Debug\net6.0\Formatting.genruntimeconfig.cache
