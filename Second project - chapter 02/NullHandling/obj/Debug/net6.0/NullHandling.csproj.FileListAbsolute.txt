@@ -1,0 +1,15 @@
+E:\System folder\Documentos\CSProjects\Second project - chapter 02\NullHandling\bin\Debug\net6.0\NullHandling.exe
+E:\System folder\Documentos\CSProjects\Second project - chapter 02\NullHandling\bin\Debug\net6.0\NullHandling.deps.json
+E:\System folder\Documentos\CSProjects\Second project - chapter 02\NullHandling\bin\Debug\net6.0\NullHandling.runtimeconfig.json
+E:\System folder\Documentos\CSProjects\Second project - chapter 02\NullHandling\bin\Debug\net6.0\NullHandling.dll
+E:\System folder\Documentos\CSProjects\Second project - chapter 02\NullHandling\bin\Debug\net6.0\ref\NullHandling.dll
+E:\System folder\Documentos\CSProjects\Second project - chapter 02\NullHandling\bin\Debug\net6.0\NullHandling.pdb
+E:\System folder\Documentos\CSProjects\Second project - chapter 02\NullHandling\obj\Debug\net6.0\NullHandling.csproj.AssemblyReference.cache
+E:\System folder\Documentos\CSProjects\Second project - chapter 02\NullHandling\obj\Debug\net6.0\NullHandling.GeneratedMSBuildEditorConfig.editorconfig
+E:\System folder\Documentos\CSProjects\Second project - chapter 02\NullHandling\obj\Debug\net6.0\NullHandling.AssemblyInfoInputs.cache
+E:\System folder\Documentos\CSProjects\Second project - chapter 02\NullHandling\obj\Debug\net6.0\NullHandling.AssemblyInfo.cs
+E:\System folder\Documentos\CSProjects\Second project - chapter 02\NullHandling\obj\Debug\net6.0\NullHandling.csproj.CoreCompileInputs.cache
+E:\System folder\Documentos\CSProjects\Second project - chapter 02\NullHandling\obj\Debug\net6.0\NullHandling.dll
+E:\System folder\Documentos\CSProjects\Second project - chapter 02\NullHandling\obj\Debug\net6.0\ref\NullHandling.dll
+E:\System folder\Documentos\CSProjects\Second project - chapter 02\NullHandling\obj\Debug\net6.0\NullHandling.pdb
+E:\System folder\Documentos\CSProjects\Second project - chapter 02\NullHandling\obj\Debug\net6.0\NullHandling.genruntimeconfig.cache
