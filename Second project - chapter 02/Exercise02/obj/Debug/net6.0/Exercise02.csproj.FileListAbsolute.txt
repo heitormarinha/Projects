@@ -1,0 +1,15 @@
+E:\System folder\Documentos\CSProjects\Second project - chapter 02\Exercise02\bin\Debug\net6.0\Exercise02.exe
+E:\System folder\Documentos\CSProjects\Second project - chapter 02\Exercise02\bin\Debug\net6.0\Exercise02.deps.json
+E:\System folder\Documentos\CSProjects\Second project - chapter 02\Exercise02\bin\Debug\net6.0\Exercise02.runtimeconfig.json
+E:\System folder\Documentos\CSProjects\Second project - chapter 02\Exercise02\bin\Debug\net6.0\Exercise02.dll
+E:\System folder\Documentos\CSProjects\Second project - chapter 02\Exercise02\bin\Debug\net6.0\ref\Exercise02.dll
+E:\System folder\Documentos\CSProjects\Second project - chapter 02\Exercise02\bin\Debug\net6.0\Exercise02.pdb
+E:\System folder\Documentos\CSProjects\Second project - chapter 02\Exercise02\obj\Debug\net6.0\Exercise02.csproj.AssemblyReference.cache
+E:\System folder\Documentos\CSProjects\Second project - chapter 02\Exercise02\obj\Debug\net6.0\Exercise02.GeneratedMSBuildEditorConfig.editorconfig
+E:\System folder\Documentos\CSProjects\Second project - chapter 02\Exercise02\obj\Debug\net6.0\Exercise02.AssemblyInfoInputs.cache
+E:\System folder\Documentos\CSProjects\Second project - chapter 02\Exercise02\obj\Debug\net6.0\Exercise02.AssemblyInfo.cs
+E:\System folder\Documentos\CSProjects\Second project - chapter 02\Exercise02\obj\Debug\net6.0\Exercise02.csproj.CoreCompileInputs.cache
+E:\System folder\Documentos\CSProjects\Second project - chapter 02\Exercise02\obj\Debug\net6.0\Exercise02.dll
+E:\System folder\Documentos\CSProjects\Second project - chapter 02\Exercise02\obj\Debug\net6.0\ref\Exercise02.dll
+E:\System folder\Documentos\CSProjects\Second project - chapter 02\Exercise02\obj\Debug\net6.0\Exercise02.pdb
+E:\System folder\Documentos\CSProjects\Second project - chapter 02\Exercise02\obj\Debug\net6.0\Exercise02.genruntimeconfig.cache
