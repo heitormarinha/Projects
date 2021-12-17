@@ -36,10 +36,10 @@ Console.WriteLine(
 
 Console.Write("Type your first name and press ENTER: ");
 // Getting the text inpit form user using the "ReadLine method" of system.console
-string firstName = Console.ReadLine();
+string? firstName = Console.ReadLine();
 
 Console.Write("Type your age and press ENTER: ");
-string age = Console.ReadLine();
+string? age = Console.ReadLine();
 
 // Console.WriteLine(   $"Hello {firstName}, you look good for {age}.");
 
