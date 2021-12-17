@@ -50,3 +50,13 @@ WriteLine(
     format:"Hello {0}, you look good for {1}!",
     arg0: firstName,
     arg1: age);
+
+// Getting key input from user
+Write("Press any key comination:");
+ConsoleKeyInfo key = ReadKey();
+// Printing the information gotten
+WriteLine("Key: {0}, Char: {1}, Modifiers: {2}",
+    arg0: key.Key,
+    arg1: key.KeyChar,
+    arg2: key.Modifiers);
+
