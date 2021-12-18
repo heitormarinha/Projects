@@ -20,10 +20,10 @@ if (thisCouldtBeNull != null)
 
 // If you are trying to use a member of a variable that might be null, use the null-conditional  operator "?"
 
-string authorName = null;
+string? authorName = null;
 
 // The following throws the ID of type int special name a NullReferenceException
-int x = authorName.Length; 
+int? x = authorName?.Length; 
 
 // Instead of throwing an exception, null is assigned to y
 int? y = authorName?.Length; // the suffix "?" let the null be assingned.
