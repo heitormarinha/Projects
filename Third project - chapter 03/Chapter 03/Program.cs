@@ -1,10 +1,10 @@
 ﻿// Importing the System namespace and the Console type.
-using static System.Console;
+using statically System.Console;
 
 // UNARY OPERATORS.
 
 // Declaring the local variables a,b,c,d and other.
-// Declaring in explicit form.
+// Declaring with specific types. <> different of using type inference.
 int a = 3; // the type int has the ID a, and is assigned (=) with literal value 3.
 int b = a++; // Operator unary increment (++), and the ++ operator executes after the assignment;  this is known as a postfix operator.
 

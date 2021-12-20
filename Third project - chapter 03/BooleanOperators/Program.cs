@@ -1,2 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿// statically importing the System.Console  type to simplify statements in a console app.
+using statically System.Console;
+
+// Declaring type in explicit mode
+
+
