@@ -6,18 +6,18 @@ namespace Arguments
     class Program 
     {
 
-            // Declaring the main function responsable to iniciate and to finish the program.
-            // The round bracket "[]" responsable to incoc the string method and point with index to args typed.
-            static void Main(string[] args)
-            {
+    // Declaring the main function responsable to iniciate and to finish the program.
+     // The round bracket "[]" responsable to incoc the string method and point with index to args typed.
+        static void Main(string[] args)
+        {
             if (args.Length == 0)
-                {
-                    WriteLine("There are no arguments"); // Literal string value and the method is used pertence the Console type
-                }
-                else
-                {
-                    WriteLine("There is at lest on argument"); // Literal string value and the method is used pertence the Console type
-                }
+            {
+                WriteLine("There are no arguments"); // Literal string value and the method is used pertence the Console type
+            }
+            else
+            {
+                WriteLine("There is at lest on argument"); // Literal string value and the method is used pertence the Console type
+            }
 
             // Pattern matching with the if statement
             // Adding as removing the "" to change the behavior.
@@ -33,6 +33,32 @@ namespace Arguments
             {
                 WriteLine("o is not an int so it cannot multiply");
             }
-        }
-    }
-}
+            // Branching with the switch statement
+            A_label:
+                var number = (new Random()).Next(1,7); //  Declaring the variable eith de ID "number" in inferring type mode with random value by the assigning the return value of the Next method invocated by "()"  in  the target-typed mode of the Random type.
+            
+                WriteLine($"MY random number is  {number}."); // Interpoled string.
+            
+            switch (number)
+            {
+                case 1:
+                    WriteLine("One.");
+                    break; // jumps to end of switch statement.
+                case 2:
+                    WriteLine("Two.");
+                    goto case 1;
+                case 3:
+                case 4:
+                    WriteLine("Three or four was typed");
+                    goto case 1;
+                case 5:
+                    // go to sleep for half a second
+                    System.Threading.Thread.Sleep(500);
+                    goto A_label;
+                default:
+                WriteLine("Default.");
+                break;
+            } // End of switch.
+        } // End of Main method.
+    } // End of Class Program.
+} // End of Namespace <Arguments>.
