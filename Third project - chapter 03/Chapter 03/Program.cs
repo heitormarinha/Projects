@@ -1,5 +1,5 @@
 ﻿// Importing the System namespace and the Console type.
-using statically System.Console;
+using static System.Console;
 
 // UNARY OPERATORS.
 
