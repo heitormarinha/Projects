@@ -1,0 +1,15 @@
+E:\Documents\CSProjects\Third project - chapter 03\BooleanOperators\obj\Debug\net6.0\BooleanOperators.csproj.AssemblyReference.cache
+E:\Documents\CSProjects\Third project - chapter 03\BooleanOperators\obj\Debug\net6.0\BooleanOperators.GeneratedMSBuildEditorConfig.editorconfig
+E:\Documents\CSProjects\Third project - chapter 03\BooleanOperators\obj\Debug\net6.0\BooleanOperators.AssemblyInfoInputs.cache
+E:\Documents\CSProjects\Third project - chapter 03\BooleanOperators\obj\Debug\net6.0\BooleanOperators.AssemblyInfo.cs
+E:\Documents\CSProjects\Third project - chapter 03\BooleanOperators\obj\Debug\net6.0\BooleanOperators.csproj.CoreCompileInputs.cache
+E:\Documents\CSProjects\Third project - chapter 03\BooleanOperators\bin\Debug\net6.0\BooleanOperators.exe
+E:\Documents\CSProjects\Third project - chapter 03\BooleanOperators\bin\Debug\net6.0\BooleanOperators.deps.json
+E:\Documents\CSProjects\Third project - chapter 03\BooleanOperators\bin\Debug\net6.0\BooleanOperators.runtimeconfig.json
+E:\Documents\CSProjects\Third project - chapter 03\BooleanOperators\bin\Debug\net6.0\BooleanOperators.dll
+E:\Documents\CSProjects\Third project - chapter 03\BooleanOperators\bin\Debug\net6.0\ref\BooleanOperators.dll
+E:\Documents\CSProjects\Third project - chapter 03\BooleanOperators\bin\Debug\net6.0\BooleanOperators.pdb
+E:\Documents\CSProjects\Third project - chapter 03\BooleanOperators\obj\Debug\net6.0\BooleanOperators.dll
+E:\Documents\CSProjects\Third project - chapter 03\BooleanOperators\obj\Debug\net6.0\ref\BooleanOperators.dll
+E:\Documents\CSProjects\Third project - chapter 03\BooleanOperators\obj\Debug\net6.0\BooleanOperators.pdb
+E:\Documents\CSProjects\Third project - chapter 03\BooleanOperators\obj\Debug\net6.0\BooleanOperators.genruntimeconfig.cache
