@@ -1,6 +1,6 @@
 ﻿// Importing in "static" mode the namespace System and its Console type
 using static System.Console;
-
+using System.IO;
 namespace Arguments 
 {   
     class Program 
@@ -37,7 +37,7 @@ namespace Arguments
             A_label:
                 var number = (new Random()).Next(1,7); //  Declaring the variable eith de ID "number" in inferring type mode with random value by the assigning the return value of the Next method invocated by "()"  in  the target-typed mode of the Random type.
             
-                WriteLine($"MY random number is  {number}."); // Interpoled string.
+                WriteLine($"MY random number is {number}."); // Interpoled string.
             
             switch (number)
             {
@@ -49,7 +49,7 @@ namespace Arguments
                     goto case 1;
                 case 3:
                 case 4:
-                    WriteLine("Three or four was typed");
+                    WriteLine("Three or four was chose for Random's Next method");
                     goto case 1;
                 case 5:
                     // go to sleep for half a second
@@ -59,6 +59,61 @@ namespace Arguments
                 WriteLine("Default.");
                 break;
             } // End of switch.
-        } // End of Main method.
+
+        // Pattern matching with the switch statement 
+        //String path = <path>.
+        
+        string path = @"E:\Documents\CSProjects\Third project - chapter 03"; // Assigning the varbatin string;
+
+        Write("Press R for readonly or W for write: ");// Literal string value.
+        ConsoleKeyInfo key = ReadKey(); // Getting the character Typed.
+        WriteLine(); // Jump one line.
+
+        Stream? s = null; // Declaring the variable s and setting it in "Stream type", and after assigning the null value into its.
+
+        
+        if (key.Key == ConsoleKey.R) 
+        {   
+            s = File.Open(     
+                Path.Combine(path, "file.txt"),
+                FileMode.OpenOrCreate,
+                FileAccess.Read);
+        }
+        else
+        {
+            s = File.Open(
+                Path.Combine(path, "file.txt"),
+                FileMode.OpenOrCreate,
+                FileAccess.Write);  
+            
+        }
+
+        string message = string.Empty;
+
+        switch (s)
+        {
+            case FileStream writeableFile when s.CanWrite:
+                message = "The stream is a file that I can write to.";
+                break; //Jump to end fo switch.
+
+            case FileStream readOnlyFile:
+                message = "The stream is a read-only file.";
+                break;
+
+            case MemoryStream ms:
+                message = "The stream is a memory address.";
+                break;
+
+            default: // Always evalueted last despite its corrent position
+                message = "The stream is some other type.";
+                break;
+                    
+            case null:
+                message = "The stream is null;";
+                break;
+        } // End of switch.
+
+    WriteLine(message);
+    } // End of Main method.
     } // End of Class Program.
 } // End of Namespace <Arguments>.

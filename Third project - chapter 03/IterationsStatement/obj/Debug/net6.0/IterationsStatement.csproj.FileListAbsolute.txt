@@ -1,0 +1,15 @@
+E:\Documents\CSProjects\Third project - chapter 03\IterationsStatement\obj\Debug\net6.0\IterationsStatement.csproj.AssemblyReference.cache
+E:\Documents\CSProjects\Third project - chapter 03\IterationsStatement\obj\Debug\net6.0\IterationsStatement.GeneratedMSBuildEditorConfig.editorconfig
+E:\Documents\CSProjects\Third project - chapter 03\IterationsStatement\obj\Debug\net6.0\IterationsStatement.AssemblyInfoInputs.cache
+E:\Documents\CSProjects\Third project - chapter 03\IterationsStatement\obj\Debug\net6.0\IterationsStatement.AssemblyInfo.cs
+E:\Documents\CSProjects\Third project - chapter 03\IterationsStatement\obj\Debug\net6.0\IterationsStatement.csproj.CoreCompileInputs.cache
+E:\Documents\CSProjects\Third project - chapter 03\IterationsStatement\bin\Debug\net6.0\IterationsStatement.exe
+E:\Documents\CSProjects\Third project - chapter 03\IterationsStatement\bin\Debug\net6.0\IterationsStatement.deps.json
+E:\Documents\CSProjects\Third project - chapter 03\IterationsStatement\bin\Debug\net6.0\IterationsStatement.runtimeconfig.json
+E:\Documents\CSProjects\Third project - chapter 03\IterationsStatement\bin\Debug\net6.0\IterationsStatement.dll
+E:\Documents\CSProjects\Third project - chapter 03\IterationsStatement\bin\Debug\net6.0\ref\IterationsStatement.dll
+E:\Documents\CSProjects\Third project - chapter 03\IterationsStatement\bin\Debug\net6.0\IterationsStatement.pdb
+E:\Documents\CSProjects\Third project - chapter 03\IterationsStatement\obj\Debug\net6.0\IterationsStatement.dll
+E:\Documents\CSProjects\Third project - chapter 03\IterationsStatement\obj\Debug\net6.0\ref\IterationsStatement.dll
+E:\Documents\CSProjects\Third project - chapter 03\IterationsStatement\obj\Debug\net6.0\IterationsStatement.pdb
+E:\Documents\CSProjects\Third project - chapter 03\IterationsStatement\obj\Debug\net6.0\IterationsStatement.genruntimeconfig.cache
