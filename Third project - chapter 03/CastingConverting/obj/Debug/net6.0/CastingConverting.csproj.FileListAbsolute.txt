@@ -1,0 +1,15 @@
+E:\Documents\CSProjects\Third project - chapter 03\CastingConverting\bin\Debug\net6.0\CastingConverting.exe
+E:\Documents\CSProjects\Third project - chapter 03\CastingConverting\bin\Debug\net6.0\CastingConverting.deps.json
+E:\Documents\CSProjects\Third project - chapter 03\CastingConverting\bin\Debug\net6.0\CastingConverting.runtimeconfig.json
+E:\Documents\CSProjects\Third project - chapter 03\CastingConverting\bin\Debug\net6.0\CastingConverting.dll
+E:\Documents\CSProjects\Third project - chapter 03\CastingConverting\bin\Debug\net6.0\ref\CastingConverting.dll
+E:\Documents\CSProjects\Third project - chapter 03\CastingConverting\bin\Debug\net6.0\CastingConverting.pdb
+E:\Documents\CSProjects\Third project - chapter 03\CastingConverting\obj\Debug\net6.0\CastingConverting.csproj.AssemblyReference.cache
+E:\Documents\CSProjects\Third project - chapter 03\CastingConverting\obj\Debug\net6.0\CastingConverting.GeneratedMSBuildEditorConfig.editorconfig
+E:\Documents\CSProjects\Third project - chapter 03\CastingConverting\obj\Debug\net6.0\CastingConverting.AssemblyInfoInputs.cache
+E:\Documents\CSProjects\Third project - chapter 03\CastingConverting\obj\Debug\net6.0\CastingConverting.AssemblyInfo.cs
+E:\Documents\CSProjects\Third project - chapter 03\CastingConverting\obj\Debug\net6.0\CastingConverting.csproj.CoreCompileInputs.cache
+E:\Documents\CSProjects\Third project - chapter 03\CastingConverting\obj\Debug\net6.0\CastingConverting.dll
+E:\Documents\CSProjects\Third project - chapter 03\CastingConverting\obj\Debug\net6.0\ref\CastingConverting.dll
+E:\Documents\CSProjects\Third project - chapter 03\CastingConverting\obj\Debug\net6.0\CastingConverting.pdb
+E:\Documents\CSProjects\Third project - chapter 03\CastingConverting\obj\Debug\net6.0\CastingConverting.genruntimeconfig.cache
