@@ -7,7 +7,7 @@ namespace HandlingException
     {
         static void Main()
         {
-            WriteLine("Before Parsing");
+            /*WriteLine("Before Parsing");
             WriteLine("What is your age?");
             string? input = ReadLine();
 
@@ -24,7 +24,7 @@ namespace HandlingException
             {
                 WriteLine("The age tha you entered in not a valid number format ");
             }
-            WriteLine("After parsing");
+            WriteLine("After parsing");*/
 
 
 
