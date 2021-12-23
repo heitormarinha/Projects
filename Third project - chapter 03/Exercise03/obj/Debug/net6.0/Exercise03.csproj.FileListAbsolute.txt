@@ -1,0 +1,15 @@
+E:\Documents\CSProjects\Third project - chapter 03\Exercise03\bin\Debug\net6.0\Exercise03.exe
+E:\Documents\CSProjects\Third project - chapter 03\Exercise03\bin\Debug\net6.0\Exercise03.deps.json
+E:\Documents\CSProjects\Third project - chapter 03\Exercise03\bin\Debug\net6.0\Exercise03.runtimeconfig.json
+E:\Documents\CSProjects\Third project - chapter 03\Exercise03\bin\Debug\net6.0\Exercise03.dll
+E:\Documents\CSProjects\Third project - chapter 03\Exercise03\bin\Debug\net6.0\ref\Exercise03.dll
+E:\Documents\CSProjects\Third project - chapter 03\Exercise03\bin\Debug\net6.0\Exercise03.pdb
+E:\Documents\CSProjects\Third project - chapter 03\Exercise03\obj\Debug\net6.0\Exercise03.csproj.AssemblyReference.cache
+E:\Documents\CSProjects\Third project - chapter 03\Exercise03\obj\Debug\net6.0\Exercise03.GeneratedMSBuildEditorConfig.editorconfig
+E:\Documents\CSProjects\Third project - chapter 03\Exercise03\obj\Debug\net6.0\Exercise03.AssemblyInfoInputs.cache
+E:\Documents\CSProjects\Third project - chapter 03\Exercise03\obj\Debug\net6.0\Exercise03.AssemblyInfo.cs
+E:\Documents\CSProjects\Third project - chapter 03\Exercise03\obj\Debug\net6.0\Exercise03.csproj.CoreCompileInputs.cache
+E:\Documents\CSProjects\Third project - chapter 03\Exercise03\obj\Debug\net6.0\Exercise03.dll
+E:\Documents\CSProjects\Third project - chapter 03\Exercise03\obj\Debug\net6.0\ref\Exercise03.dll
+E:\Documents\CSProjects\Third project - chapter 03\Exercise03\obj\Debug\net6.0\Exercise03.pdb
+E:\Documents\CSProjects\Third project - chapter 03\Exercise03\obj\Debug\net6.0\Exercise03.genruntimeconfig.cache
