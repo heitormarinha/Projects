@@ -1,0 +1,15 @@
+E:\Documents\CSProjects\Third project - chapter 03\HandlingExceptions\bin\Debug\net6.0\HandlingExceptions.exe
+E:\Documents\CSProjects\Third project - chapter 03\HandlingExceptions\bin\Debug\net6.0\HandlingExceptions.deps.json
+E:\Documents\CSProjects\Third project - chapter 03\HandlingExceptions\bin\Debug\net6.0\HandlingExceptions.runtimeconfig.json
+E:\Documents\CSProjects\Third project - chapter 03\HandlingExceptions\bin\Debug\net6.0\HandlingExceptions.dll
+E:\Documents\CSProjects\Third project - chapter 03\HandlingExceptions\bin\Debug\net6.0\ref\HandlingExceptions.dll
+E:\Documents\CSProjects\Third project - chapter 03\HandlingExceptions\bin\Debug\net6.0\HandlingExceptions.pdb
+E:\Documents\CSProjects\Third project - chapter 03\HandlingExceptions\obj\Debug\net6.0\HandlingExceptions.csproj.AssemblyReference.cache
+E:\Documents\CSProjects\Third project - chapter 03\HandlingExceptions\obj\Debug\net6.0\HandlingExceptions.GeneratedMSBuildEditorConfig.editorconfig
+E:\Documents\CSProjects\Third project - chapter 03\HandlingExceptions\obj\Debug\net6.0\HandlingExceptions.AssemblyInfoInputs.cache
+E:\Documents\CSProjects\Third project - chapter 03\HandlingExceptions\obj\Debug\net6.0\HandlingExceptions.AssemblyInfo.cs
+E:\Documents\CSProjects\Third project - chapter 03\HandlingExceptions\obj\Debug\net6.0\HandlingExceptions.csproj.CoreCompileInputs.cache
+E:\Documents\CSProjects\Third project - chapter 03\HandlingExceptions\obj\Debug\net6.0\HandlingExceptions.dll
+E:\Documents\CSProjects\Third project - chapter 03\HandlingExceptions\obj\Debug\net6.0\ref\HandlingExceptions.dll
+E:\Documents\CSProjects\Third project - chapter 03\HandlingExceptions\obj\Debug\net6.0\HandlingExceptions.pdb
+E:\Documents\CSProjects\Third project - chapter 03\HandlingExceptions\obj\Debug\net6.0\HandlingExceptions.genruntimeconfig.cache
