@@ -1,0 +1,15 @@
+E:\Documents\CSProjects\Fourth project - Chapter 04\WritingFunctions\bin\Debug\net6.0\WritingFunctions.exe
+E:\Documents\CSProjects\Fourth project - Chapter 04\WritingFunctions\bin\Debug\net6.0\WritingFunctions.deps.json
+E:\Documents\CSProjects\Fourth project - Chapter 04\WritingFunctions\bin\Debug\net6.0\WritingFunctions.runtimeconfig.json
+E:\Documents\CSProjects\Fourth project - Chapter 04\WritingFunctions\bin\Debug\net6.0\WritingFunctions.dll
+E:\Documents\CSProjects\Fourth project - Chapter 04\WritingFunctions\bin\Debug\net6.0\ref\WritingFunctions.dll
+E:\Documents\CSProjects\Fourth project - Chapter 04\WritingFunctions\bin\Debug\net6.0\WritingFunctions.pdb
+E:\Documents\CSProjects\Fourth project - Chapter 04\WritingFunctions\obj\Debug\net6.0\WritingFunctions.csproj.AssemblyReference.cache
+E:\Documents\CSProjects\Fourth project - Chapter 04\WritingFunctions\obj\Debug\net6.0\WritingFunctions.GeneratedMSBuildEditorConfig.editorconfig
+E:\Documents\CSProjects\Fourth project - Chapter 04\WritingFunctions\obj\Debug\net6.0\WritingFunctions.AssemblyInfoInputs.cache
+E:\Documents\CSProjects\Fourth project - Chapter 04\WritingFunctions\obj\Debug\net6.0\WritingFunctions.AssemblyInfo.cs
+E:\Documents\CSProjects\Fourth project - Chapter 04\WritingFunctions\obj\Debug\net6.0\WritingFunctions.csproj.CoreCompileInputs.cache
+E:\Documents\CSProjects\Fourth project - Chapter 04\WritingFunctions\obj\Debug\net6.0\WritingFunctions.dll
+E:\Documents\CSProjects\Fourth project - Chapter 04\WritingFunctions\obj\Debug\net6.0\ref\WritingFunctions.dll
+E:\Documents\CSProjects\Fourth project - Chapter 04\WritingFunctions\obj\Debug\net6.0\WritingFunctions.pdb
+E:\Documents\CSProjects\Fourth project - Chapter 04\WritingFunctions\obj\Debug\net6.0\WritingFunctions.genruntimeconfig.cache
