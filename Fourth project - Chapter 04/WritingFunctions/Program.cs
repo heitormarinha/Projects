@@ -6,7 +6,7 @@ namespace WritingFunctions
     class Program 
     {
 
-    // The method is declared above/before the main method.
+        // The method is declared above/before the main method.
         
         static void TimesTable(byte number) // Creating a method that handle one argumet in byte type in static mode. 
         {
