@@ -14,9 +14,9 @@ namespace WritingFunctions // Declaring a name space.
             // Declaring with decimal type one variable with ID name rate and assigning the literal value 0.0M to set by default.
             string? msg = twoLetterRegionCode switch
             {
-                var x when 
+                String x when 
                 Regex.IsMatch(x, "[a..z]+") => "Lowercase",
-                var y when
+                String y when
                 Regex.IsMatch(y, @"[\d]+") => "Number",
                 "CH" => $"You must pay {amount * 0.08M} in sales tax.",
                 "BB" => $"You must pay {amount * 0.05M} in sales tax.",
