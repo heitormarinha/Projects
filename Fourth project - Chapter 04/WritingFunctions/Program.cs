@@ -5,9 +5,25 @@ namespace WritingFunctions // Declaring a name space.
 {   
     class Program // Declaring a Class
     {
-
         // The method is declared above/before the main method.
-        
+        // Declaring the function with decimal type and in static mode
+        static decimal CalculateTax(decimal amount, string twoLetterRegionCode)
+        {
+            decimal rate = 0.0M; // Declaring with decimal type one variable with ID name rate and assigning the literal value 0.0M to set by default.
+
+            switch (twoLetterRegionCode) // Select statement with switch keyword.
+            {
+                case "CH": // One region. 
+                    rate = 0.08M; // The variable rate will be assign the literal value 0.08 (8%) if the variable twoLetterRegionCode was "CH"
+                    break;
+                default: // Others
+                    rate = 0.06M;
+                    break;      
+            } // End of selection statement with switch.
+
+            return amount * rate;
+
+        } //End of The CalculateTax method.
         static void TimesTable(byte number) // Creating a method that handle one argumet in byte type in static mode and with tha ID name TimesTable.
         {
 
