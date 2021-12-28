@@ -86,10 +86,75 @@ namespace WritingFunctions // Declaring a name space.
             } // End of block of iteration do.      
             while (isNumber); // End of iterarion with DO.        
         } // End of RunTimesTable function.
+        
+        // Writing a function with ID name XCardinalToOrdinal with string type in static mode.
+        static string CardinalToOrdinal(int number )
+        {
+            // Creating a switch selective statement.
+            switch (number)
+            {
+                // Special cases.
+                case 11:
+                case 12:
+                case 13:
+                    return $"{number}th";
+                default: // To other cases.
+                int lastDigit = number % 10; // Declareting the ID name lastDigit variable with int type and assigning it with the expression (number % 10).
+               
+                // Writing a select statement with switch expression.
+                string suffix = lastDigit switch
+                {
+                    1 => "st",
+                    2 => "nd",
+                    3 => "rd",
+                    _ => "th"
+                };
+                return $"{number}{suffix}";
+            } // End of Switch.
+        } // Endo of CardialToOrdinal function/method.
+        
+        // Writing the ID name RunCardinalTOOrdinal without a type (void) in static mode.
+        static void RunCardinalToOrdinal()
+        {
+            // Writing a iterarion statement.
+            //  int variable - initializer expression
+            // variable number <= literal value - conditional expression
+            // variable++ - iterator expression
+            for (int number = 1; number<= 40; number++)
+            {
+                Write($"{CardinalToOrdinal(number)} ");// Printing a output in interpoled string.
+            }
+            WriteLine();
+        }
+
+        // writing a function named Factorial with int type in static mode, and it will have the argument named number with int type.
+        static int Factorial(int number)
+        {
+            int input = number switch
+            {
+                <1 => 0,
+                1 => 1,
+                _ => number * Factorial(number -1)
+            };// End of Switch expressive.
+            return input;
+        } // End of Factorila function/method.
+        
+        // Writing the function named RunFactorial without type(void) with static mode and without argument.
+        static void RunFactorial()
+        {
+            // Writing the iterator statement with the for keyword and its (inicializer, condicional and iterator expressions)
+            for (int i = 1; i< 15 ; i++)
+            {
+                WriteLine($"{i}! = {Factorial(i):N0}");
+            } // End of the for iterator statement.
+        }// End of RunFactorial method.
+
         static void Main(string[] args)
         {
             // RunTimesTable();
-            RunCalculateTax();
+            // RunCalculateTax();
+            // RunCardinalToOrdinal();
+
         } // End of Main method.
     } // End of Class Program.
 } // End of Namespace <WritingFunctions>.
