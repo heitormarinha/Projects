@@ -8,11 +8,9 @@ namespace WritingFunctions // Declaring a name space.
     {
         // The method is declared above/before the main method.
         // Declaring the function with decimal type and in static mode
-        static void CalculateTax(decimal amount, string? twoLetterRegionCode)
-        {
-           
-            // Declaring with decimal type one variable with ID name rate and assigning the literal value 0.0M to set by default.
-            string? msg = twoLetterRegionCode switch
+        static string CalculateTax(decimal amount, string? twoLetterRegionCode) =>
+                   
+            twoLetterRegionCode switch
             {
                 String x when 
                 Regex.IsMatch(x, "[a..z]+") => "Lowercase",
@@ -22,9 +20,7 @@ namespace WritingFunctions // Declaring a name space.
                 "BB" => $"You must pay {amount * 0.05M} in sales tax.",
                  _ => "Other case"
                             
-            }; // End of Switch expression. 
-        WriteLine(msg); 
-        } //End of The CalculateTax method.
+            }; // End of Switch expression.  
 
         // Declaring the RunCalculateTax function/mathod in static mode and without type with the ID name RUn CalculateTax.
         static void RunCalculateTax()
@@ -40,7 +36,7 @@ namespace WritingFunctions // Declaring a name space.
 
             if (decimal.TryParse(amountInText, out decimal amount))
             {
-                CalculateTax(amount, region);
+                WriteLine($"{CalculateTax(amount, region)}");
                
             } // End of if.
             else
@@ -49,7 +45,7 @@ namespace WritingFunctions // Declaring a name space.
             } // End of Else.
 
         } // End of RunCalculateTax method/function.
-        static void TimesTable(byte number) // Creating a method that handle one argumet in byte type in static mode and with tha ID name TimesTable.
+        static void TimesTable(byte number) // Creating a method that handle one paramenter in byte type in static mode and with tha ID name TimesTable.
         {
 
             WriteLine($"This is the {number} times table:");// Interpoled string .
@@ -168,13 +164,60 @@ namespace WritingFunctions // Declaring a name space.
                 }
             } // End of the for iterator statement.
         }// End of RunFactorial method.
+        
+        // Writing in static mode and int type the function/method named/ID FibImperati with its parameter with int type
+        /// <summary>. 
+        /// Pass a 32-bit int and it will return a Fibonanci iperator
+        /// </summary>
+        /// <param name="term">Will pass thity arguments with iterator statement with for.</param>
+        /// <returns>Will return the addition of the 2 last numbers.</returns>
+        static int FibImperative(int term)
+        {
+            int input = term switch
+            {
+                1 => 0,
+                2 => 1,
+                _ => FibImperative(term - 1) + FibImperative(term - 2)
+            };// End of Switch
+        return input;    
+        } // End of FibImperatibe function.
 
+        // Writing in static mode without the type the named ID RunFibImperative.
+        /// <summary>
+        /// Call the FibImperative
+        /// </summary>
+        /// <param name="args"></param>
+        static void RunFibImperative()
+        {
+            // Writing the iterator statement with for.
+            for (int i = 1; i <= 30; i++) // Inicializer expression ; conditional expression ; iterator expression.
+            {
+                WriteLine("The {0} term of the Fibonacci sequence is {1:N0}",
+                arg0: CardinalToOrdinal(i),
+                arg1: FibImperative(i));
+            }// End of for.
+        }// End of RunFibImperative function / method.
+
+        // Writing  in static mode with int type and named ID FibFunctional and its parameter with int type named term.
+        /// <summary>
+        /// Passing some arguments and it will return the addition of the last 2 terms.
+        /// </summary>
+        /// <param name="term">Eg 1,2,3,4 ... 30</param>
+        /// <returns>0,1,1,2,3...514,229</returns>
+        static int FibFunctional(int term) =>
+        term switch
+        {
+            1 => 0,
+            2 => 1,
+            _ => FibFunctional(term - 1) + FibFunctional(term - 2) // Recursive function
+        };// End of switch and function.
         static void Main(string[] args)
         {
             // RunTimesTable();
             // RunCalculateTax();
             // RunCardinalToOrdinal();
             // RunFactorial();
+            // RunFibImperative();
 
         } // End of Main method.
     } // End of Class Program.
