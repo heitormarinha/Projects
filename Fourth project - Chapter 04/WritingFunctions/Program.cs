@@ -88,6 +88,11 @@ namespace WritingFunctions // Declaring a name space.
         } // End of RunTimesTable function.
         
         // Writing a function with ID name XCardinalToOrdinal with string type in static mode.
+        /// <summary>
+        /// Pass a 32-bit integer and it'll be converted in its ordinal equivalent.
+        /// </summary>
+        /// <param name="number">Number is a cardinal value e.g. 1, 2, 3, and so  on.</param>
+        /// <returns>Number as an ordinal value e.g. 1st, 2nd, 3rd, and so on.</returns>
         static string CardinalToOrdinal(int number )
         {
             // Creating a switch selective statement.
@@ -130,23 +135,18 @@ namespace WritingFunctions // Declaring a name space.
         // writing a function named Factorial with int type in static mode, and it will have the argument named number with int type.
         static int Factorial(int number)
         {
-           try
+           // Throwing overflow exceptins with checked statement.
+           // that does not let the compiler implicit deny overflow which is allowed by default.
+           checked
            {
-                checked
+                int input = number switch
                 {
-                    int input = number switch
-                    {
-                        <1 => 0,
-                        1 => 1,
-                        _ => number * Factorial(number -1)
-                    };// End of Switch expressive.
-                    return input; 
-                }// End of checked
-            }// End of try.
-            catch (OverflowException)
-            {
-                WriteLine($"{i}! is too big for a 32-bit integer.");
-            }// End of catch.    
+                    <1 => 0,
+                    1 => 1,
+                    _ => number * Factorial(number -1)
+                };// End of Switch expressive.
+            return input; 
+           }// End of checked
         } // End of Factorila function/method.
         
         // Writing the function named RunFactorial without type(void) with static mode and without argument.
@@ -155,7 +155,17 @@ namespace WritingFunctions // Declaring a name space.
             // Writing the iterator statement with the for keyword and its (inicializer, condicional and iterator expressions)
             for (int i = 1; i< 15 ; i++)
             {
-                WriteLine($"{i}! = {Factorial(i):N0}");
+                // Handling exceptions wrapping error-prone in try/catch bolck
+                try
+                {
+                    WriteLine($"{i}! = {Factorial(i):N0}");
+                }
+                // Catching specific excepitions (in this case OverFLowException)
+                // Throwed by checked block
+                catch (OverflowException)
+                {
+                    WriteLine($"{i}! is too big for a 32-bit integer.");
+                }
             } // End of the for iterator statement.
         }// End of RunFactorial method.
 
@@ -164,7 +174,7 @@ namespace WritingFunctions // Declaring a name space.
             // RunTimesTable();
             // RunCalculateTax();
             // RunCardinalToOrdinal();
-            RunFactorial();
+            // RunFactorial();
 
         } // End of Main method.
     } // End of Class Program.
