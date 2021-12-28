@@ -1,0 +1,15 @@
+E:\Documents\CSProjects\Fourth project - Chapter 04\Instrumenting\bin\Release\net6.0\Instrumenting.exe
+E:\Documents\CSProjects\Fourth project - Chapter 04\Instrumenting\bin\Release\net6.0\Instrumenting.deps.json
+E:\Documents\CSProjects\Fourth project - Chapter 04\Instrumenting\bin\Release\net6.0\Instrumenting.runtimeconfig.json
+E:\Documents\CSProjects\Fourth project - Chapter 04\Instrumenting\bin\Release\net6.0\Instrumenting.dll
+E:\Documents\CSProjects\Fourth project - Chapter 04\Instrumenting\bin\Release\net6.0\ref\Instrumenting.dll
+E:\Documents\CSProjects\Fourth project - Chapter 04\Instrumenting\bin\Release\net6.0\Instrumenting.pdb
+E:\Documents\CSProjects\Fourth project - Chapter 04\Instrumenting\obj\Release\net6.0\Instrumenting.csproj.AssemblyReference.cache
+E:\Documents\CSProjects\Fourth project - Chapter 04\Instrumenting\obj\Release\net6.0\Instrumenting.GeneratedMSBuildEditorConfig.editorconfig
+E:\Documents\CSProjects\Fourth project - Chapter 04\Instrumenting\obj\Release\net6.0\Instrumenting.AssemblyInfoInputs.cache
+E:\Documents\CSProjects\Fourth project - Chapter 04\Instrumenting\obj\Release\net6.0\Instrumenting.AssemblyInfo.cs
+E:\Documents\CSProjects\Fourth project - Chapter 04\Instrumenting\obj\Release\net6.0\Instrumenting.csproj.CoreCompileInputs.cache
+E:\Documents\CSProjects\Fourth project - Chapter 04\Instrumenting\obj\Release\net6.0\Instrumenting.dll
+E:\Documents\CSProjects\Fourth project - Chapter 04\Instrumenting\obj\Release\net6.0\ref\Instrumenting.dll
+E:\Documents\CSProjects\Fourth project - Chapter 04\Instrumenting\obj\Release\net6.0\Instrumenting.pdb
+E:\Documents\CSProjects\Fourth project - Chapter 04\Instrumenting\obj\Release\net6.0\Instrumenting.genruntimeconfig.cache
