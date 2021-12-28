@@ -211,6 +211,23 @@ namespace WritingFunctions // Declaring a name space.
             2 => 1,
             _ => FibFunctional(term - 1) + FibFunctional(term - 2) // Recursive function
         };// End of switch and function.
+
+        // Writing in static mode without type(void) namede ID RunFibFunctional.
+        /// <summary>
+        /// Call the FibFunctional and CardinalToOrdinal in a literal string.
+        /// </summary>
+        static void RunFibFunctional()
+        {
+            // Writing a iterator statement.
+            for (int i =  1; i <= 30; i++)
+            {
+                WriteLine("The {0} term of Fibonacci sequence is {1:N0}",
+                    arg0: CardinalToOrdinal(1),
+                    arg1: FibFunctional(i)
+                );// End of strinf and its arguments.
+            }// End of iterator statement with for.
+        }// End of function RunFibFunctional.
+
         static void Main(string[] args)
         {
             // RunTimesTable();
@@ -218,6 +235,8 @@ namespace WritingFunctions // Declaring a name space.
             // RunCardinalToOrdinal();
             // RunFactorial();
             // RunFibImperative();
+            // RunFibFunctional();
+            
 
         } // End of Main method.
     } // End of Class Program.
