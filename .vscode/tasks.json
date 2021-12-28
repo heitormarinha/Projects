@@ -19,7 +19,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/Fourth project - Chapter 04/Debugging/Debugging.csproj",
+                "${workspaceFolder}/Fourth project - Chapter 04/Instrumentation/Instrumentation.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -33,7 +33,7 @@
                 "watch",
                 "run",
                 "--project",
-                "${workspaceFolder}/Fourth project - Chapter 04/Debugging/Debugging.csproj"
+                "${workspaceFolder}/Fourth project - Chapter 04/Instrumentation/Instrumentation.csproj"
             ],
             "problemMatcher": "$msCompile"
         }
