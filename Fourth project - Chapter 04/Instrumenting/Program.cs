@@ -27,7 +27,7 @@ namespace Instrumenting
             Trace.WriteLine("Trace says, I am watching");  
 
             // I am declaring a variable with ID name builder with ConfigurationBuilder type in inference mode(var).
-            var builder = new ConfigurationBuilder().SetBasePath(Directory.GetCurrentDirectory()).AddJsonFile("AppSettings.json", optional: true, reloadOnChange:true);
+            var builder = new ConfigurationBuilder().SetBasePath(Directory.GetCurrentDirectory()).AddJsonFile("AppSettings.json", optional: true, reloadOnChange: true);
             // The builder has the type ConfigurationBuilder and it has the preview setting.
 
             // I am Declaring the ID named configuration variable with the IConfigurationRoot type.
@@ -36,11 +36,12 @@ namespace Instrumenting
             // I am declaring the variable in inference mode with TraceSwitch type and with the ID name ts(traceSwitch)
             var traceSwitch = new TraceSwitch
             (
-                displayName: "PackSwitch",
+                displayName: "PacktSwitch",
                 description: "This switch is set via a JSON config."
             );
             
-            configuration.GetSection("PackSwitch").Bind(traceSwitch);
+            configuration.GetSection("PacktSwitch").Bind(traceSwitch);
+
             Trace.WriteLineIf(traceSwitch.TraceError, "Trace error");
             Trace.WriteLineIf(traceSwitch.TraceWarning, "Trace warning");
             Trace.WriteLineIf(traceSwitch.TraceInfo, "Trace information");

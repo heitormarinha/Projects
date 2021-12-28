@@ -13,3 +13,13 @@ E:\Documents\CSProjects\Fourth project - Chapter 04\Instrumenting\obj\Debug\net6
 E:\Documents\CSProjects\Fourth project - Chapter 04\Instrumenting\obj\Debug\net6.0\ref\Instrumenting.dll
 E:\Documents\CSProjects\Fourth project - Chapter 04\Instrumenting\obj\Debug\net6.0\Instrumenting.pdb
 E:\Documents\CSProjects\Fourth project - Chapter 04\Instrumenting\obj\Debug\net6.0\Instrumenting.genruntimeconfig.cache
+E:\Documents\CSProjects\Fourth project - Chapter 04\Instrumenting\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
+E:\Documents\CSProjects\Fourth project - Chapter 04\Instrumenting\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\Documents\CSProjects\Fourth project - Chapter 04\Instrumenting\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Binder.dll
+E:\Documents\CSProjects\Fourth project - Chapter 04\Instrumenting\bin\Debug\net6.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+E:\Documents\CSProjects\Fourth project - Chapter 04\Instrumenting\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Json.dll
+E:\Documents\CSProjects\Fourth project - Chapter 04\Instrumenting\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+E:\Documents\CSProjects\Fourth project - Chapter 04\Instrumenting\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Physical.dll
+E:\Documents\CSProjects\Fourth project - Chapter 04\Instrumenting\bin\Debug\net6.0\Microsoft.Extensions.FileSystemGlobbing.dll
+E:\Documents\CSProjects\Fourth project - Chapter 04\Instrumenting\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+E:\Documents\CSProjects\Fourth project - Chapter 04\Instrumenting\obj\Debug\net6.0\Instrumenting.csproj.CopyComplete
