@@ -130,13 +130,23 @@ namespace WritingFunctions // Declaring a name space.
         // writing a function named Factorial with int type in static mode, and it will have the argument named number with int type.
         static int Factorial(int number)
         {
-            int input = number switch
+           try
+           {
+                checked
+                {
+                    int input = number switch
+                    {
+                        <1 => 0,
+                        1 => 1,
+                        _ => number * Factorial(number -1)
+                    };// End of Switch expressive.
+                    return input; 
+                }// End of checked
+            }// End of try.
+            catch (OverflowException)
             {
-                <1 => 0,
-                1 => 1,
-                _ => number * Factorial(number -1)
-            };// End of Switch expressive.
-            return input;
+                WriteLine($"{i}! is too big for a 32-bit integer.");
+            }// End of catch.    
         } // End of Factorila function/method.
         
         // Writing the function named RunFactorial without type(void) with static mode and without argument.
@@ -154,6 +164,7 @@ namespace WritingFunctions // Declaring a name space.
             // RunTimesTable();
             // RunCalculateTax();
             // RunCardinalToOrdinal();
+            RunFactorial();
 
         } // End of Main method.
     } // End of Class Program.
