@@ -1,0 +1,12 @@
+E:\Documents\CSProjects\Fourth project - Chapter 04\CalculatorLib\obj\Debug\net6.0\CalculatorLib.csproj.AssemblyReference.cache
+E:\Documents\CSProjects\Fourth project - Chapter 04\CalculatorLib\obj\Debug\net6.0\CalculatorLib.GeneratedMSBuildEditorConfig.editorconfig
+E:\Documents\CSProjects\Fourth project - Chapter 04\CalculatorLib\obj\Debug\net6.0\CalculatorLib.AssemblyInfoInputs.cache
+E:\Documents\CSProjects\Fourth project - Chapter 04\CalculatorLib\obj\Debug\net6.0\CalculatorLib.AssemblyInfo.cs
+E:\Documents\CSProjects\Fourth project - Chapter 04\CalculatorLib\obj\Debug\net6.0\CalculatorLib.csproj.CoreCompileInputs.cache
+E:\Documents\CSProjects\Fourth project - Chapter 04\CalculatorLib\bin\Debug\net6.0\CalculatorLib.deps.json
+E:\Documents\CSProjects\Fourth project - Chapter 04\CalculatorLib\bin\Debug\net6.0\CalculatorLib.dll
+E:\Documents\CSProjects\Fourth project - Chapter 04\CalculatorLib\bin\Debug\net6.0\ref\CalculatorLib.dll
+E:\Documents\CSProjects\Fourth project - Chapter 04\CalculatorLib\bin\Debug\net6.0\CalculatorLib.pdb
+E:\Documents\CSProjects\Fourth project - Chapter 04\CalculatorLib\obj\Debug\net6.0\CalculatorLib.dll
+E:\Documents\CSProjects\Fourth project - Chapter 04\CalculatorLib\obj\Debug\net6.0\ref\CalculatorLib.dll
+E:\Documents\CSProjects\Fourth project - Chapter 04\CalculatorLib\obj\Debug\net6.0\CalculatorLib.pdb
