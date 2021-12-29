@@ -9,7 +9,7 @@ public class Factorial
         
         while (number % 2 == 0)
         {
-            if (number==2)
+            if (number == 2)
             {
                  Write("2");
                 number /= 2;
@@ -20,14 +20,14 @@ public class Factorial
                 number /= 2;
             }
         }
-         // number must be odd at this point.  So we can skip  
+         // Number must be odd at this point.  So we can skip  
         // one element (Note i = i +2) 
-        for (int i = 3; i <= Sqrt(number); i = i+2) 
+        for (int i = 3; i <= Sqrt(number); i = i + 2) 
         { 
             // While i divides n, print i and divide n 
             while (number % i == 0) 
             { 
-                if (number <= i)
+                if (number == i)
                 {
                     Write(i); 
                     number /= i;

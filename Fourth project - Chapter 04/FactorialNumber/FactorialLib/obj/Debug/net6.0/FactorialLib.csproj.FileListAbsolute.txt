@@ -1,0 +1,12 @@
+E:\Documents\CSProjects\Fourth project - Chapter 04\FactorialNumber\FactorialLib\bin\Debug\net6.0\FactorialLib.deps.json
+E:\Documents\CSProjects\Fourth project - Chapter 04\FactorialNumber\FactorialLib\bin\Debug\net6.0\FactorialLib.dll
+E:\Documents\CSProjects\Fourth project - Chapter 04\FactorialNumber\FactorialLib\bin\Debug\net6.0\ref\FactorialLib.dll
+E:\Documents\CSProjects\Fourth project - Chapter 04\FactorialNumber\FactorialLib\bin\Debug\net6.0\FactorialLib.pdb
+E:\Documents\CSProjects\Fourth project - Chapter 04\FactorialNumber\FactorialLib\obj\Debug\net6.0\FactorialLib.csproj.AssemblyReference.cache
+E:\Documents\CSProjects\Fourth project - Chapter 04\FactorialNumber\FactorialLib\obj\Debug\net6.0\FactorialLib.GeneratedMSBuildEditorConfig.editorconfig
+E:\Documents\CSProjects\Fourth project - Chapter 04\FactorialNumber\FactorialLib\obj\Debug\net6.0\FactorialLib.AssemblyInfoInputs.cache
+E:\Documents\CSProjects\Fourth project - Chapter 04\FactorialNumber\FactorialLib\obj\Debug\net6.0\FactorialLib.AssemblyInfo.cs
+E:\Documents\CSProjects\Fourth project - Chapter 04\FactorialNumber\FactorialLib\obj\Debug\net6.0\FactorialLib.csproj.CoreCompileInputs.cache
+E:\Documents\CSProjects\Fourth project - Chapter 04\FactorialNumber\FactorialLib\obj\Debug\net6.0\FactorialLib.dll
+E:\Documents\CSProjects\Fourth project - Chapter 04\FactorialNumber\FactorialLib\obj\Debug\net6.0\ref\FactorialLib.dll
+E:\Documents\CSProjects\Fourth project - Chapter 04\FactorialNumber\FactorialLib\obj\Debug\net6.0\FactorialLib.pdb
