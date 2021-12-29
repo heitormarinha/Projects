@@ -1,5 +1,6 @@
 ﻿// Importing the System type (domain) and its Diagnostics type.
 using System.Diagnostics;
+
 // Importing the System type and its IO type.
 using System.IO;
 
@@ -18,7 +19,6 @@ namespace Instrumenting
             // I am writing to a text file in the project folder/dictory.
             Trace.Listeners.Add(new TextWriterTraceListener(
                 File.CreateText("log.txt")));
-            
             // Text writer is buffered, so this options calls Flush() on all listener after writing.
             Trace.AutoFlush = true;
 
