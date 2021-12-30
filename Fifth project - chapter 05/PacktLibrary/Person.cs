@@ -11,4 +11,15 @@ public class Person : object
     
     public WondersOfTheAncientWorld FavoriteAncientWonder;
     public WondersOfTheAncientWorld BucketList;
+    public const string Species = "Homo Sapien";
+    public readonly string HomePlanet = "Earth";
+    public readonly DateTime Instantiated;
+// constructors
+    public Person() 
+    {
+        // set default values for fields
+        // including read-only fields
+        Name = "Unknown";
+        Instantiated = DateTime.Now;
+    }
 }

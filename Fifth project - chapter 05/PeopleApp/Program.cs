@@ -11,7 +11,7 @@ namespace PeopleApp
         // I am writing in static mode, without type  the Main method.
         static void Main()
         {
-            /* var bob = new Person(); // I am declaring a local varialble in inference mode (var)named bob and assigning it with a object Person type. 
+            var bob = new Person(); // I am declaring a local varialble in inference mode (var)named bob and assigning it with a object Person type. 
             
             bob.Name = "Bob Smith"; // I am writing a type named bob, setting its property field member named "Name" and assigning it with Bob Smith Literal value.
 
@@ -53,7 +53,7 @@ namespace PeopleApp
             );*/
 
             // I am setting the public static decimal InterestRate field member of BankAccount type and I am assigning the literal value 0.012M.
-            BankAccount.InterestRate = 0.021M;
+            /*BankAccount.InterestRate = 0.021M;
 
             // In inference mode named "JonesAccount" I am instantiating a BankAccount type.
             var jonesAccount = new BankAccount();
@@ -66,8 +66,19 @@ namespace PeopleApp
                 format: "{0} earned {1:C} interest.",
                 arg0: jonesAccount.AccountName,
                 arg1: jonesAccount.Balance * BankAccount.InterestRate
-            );
+            );*/
+            // WriteLine($"{bob.Name} is a {Person.Species}");
+            
+            // WriteLine($"{bob.Name} was born on {bob.HomePlanet}");
 
+            var blankPerson = new Person();
+            WriteLine
+            (
+                format:    "{0} of {1} was created at {2:hh:mm:ss} on a {2:dddd}.",
+                arg0: blankPerson.Name,
+                arg1: blankPerson.HomePlanet,
+                arg2: blankPerson.Instantiated
+            );
         }
     }
 }
