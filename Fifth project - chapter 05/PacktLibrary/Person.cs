@@ -22,4 +22,6 @@ public class Person : object
         Name = "Unknown";
         Instantiated = DateTime.Now;
     }
+    public (string, int) GetFruit() => ("Apples", 5);
+   
 }
