@@ -11,7 +11,7 @@ namespace PeopleApp
         // I am writing in static mode, without type  the Main method.
         static void Main()
         {
-            var bob = new Person(); // I am declaring a local varialble in inference mode (var)named bob and assigning it with a object Person type. 
+            /* var bob = new Person(); // I am declaring a local varialble in inference mode (var)named bob and assigning it with a object Person type. 
             
             bob.Name = "Bob Smith"; // I am writing a type named bob, setting its property field member named "Name" and assigning it with Bob Smith Literal value.
 
@@ -32,7 +32,7 @@ namespace PeopleApp
                 arg0: bob.Name,
                 arg1: bob.FavoriteAncientWonder,
                 arg2: (int)bob.FavoriteAncientWonder
-            );*/
+            );
 
             bob.BucketList = (WondersOfTheAncientWorld)18; // I am writing a bob type, setting its BucketList enum  type and setting it with a 18 value in  WondersOfTheAncientWorld type
             
@@ -41,7 +41,7 @@ namespace PeopleApp
             WriteLine
             (
                 $"{bob.Name}'s bucket list is {bob.BucketList}"
-            );
+            );*/
 
             /*var alice = new Person {   Name = "Alice Jones",
             DateOfBirth = new DateTime(1998, 3, 7) };
@@ -51,6 +51,23 @@ namespace PeopleApp
                 arg0: alice.Name,
                 arg1: alice.DateOfBirth
             );*/
+
+            // I am setting the public static decimal InterestRate field member of BankAccount type and I am assigning the literal value 0.012M.
+            BankAccount.InterestRate = 0.021M;
+
+            // In inference mode named "JonesAccount" I am instantiating a BankAccount type.
+            var jonesAccount = new BankAccount();
+            // I am setting its fields AccountName string  and Balance decimal type.
+            jonesAccount.AccountName = "Mrs JOnes";
+            jonesAccount.Balance = 2400;
+
+            WriteLine
+            (
+                format: "{0} earned {1:C} interest.",
+                arg0: jonesAccount.AccountName,
+                arg1: jonesAccount.Balance * BankAccount.InterestRate
+            );
+
         }
     }
 }
