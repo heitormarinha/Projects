@@ -16,3 +16,5 @@ E:\Documents\CSProjects\Fifth project - chapter 05\PeopleApp\obj\Debug\net6.0\Pe
 E:\Documents\CSProjects\Fifth project - chapter 05\PeopleApp\obj\Debug\net6.0\ref\PeopleApp.dll
 E:\Documents\CSProjects\Fifth project - chapter 05\PeopleApp\obj\Debug\net6.0\PeopleApp.pdb
 E:\Documents\CSProjects\Fifth project - chapter 05\PeopleApp\obj\Debug\net6.0\PeopleApp.genruntimeconfig.cache
+E:\Documents\CSProjects\Fifth project - chapter 05\PeopleApp\bin\Debug\net6.0\PacktLibrary9.dll
+E:\Documents\CSProjects\Fifth project - chapter 05\PeopleApp\bin\Debug\net6.0\PacktLibrary9.pdb
