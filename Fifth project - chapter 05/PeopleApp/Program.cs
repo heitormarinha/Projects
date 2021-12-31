@@ -81,14 +81,17 @@ namespace PeopleApp
             );*/
 
             
-            var fruit = bob.GetFruit();
+            /*var fruit = bob.GetFruit();
             WriteLine
             (
                 $"There are {fruit.Name} {fruit.Number}."
-            );
+            );*/
             
-            (string fruitName, int fruitNumber) = bob.GetFruit();
+            /*(string fruitName, int fruitNumber) = bob.GetFruit("Apple", 5);
             WriteLine($"Deconstructed: {fruitName}, {fruitNumber}.");
+            
+            int fruitNumber2 = bob.GetFruit(5);
+            WriteLine($"Deconstructed: {fruitNumber2}.");*/
 
 
             /*var thing1 = ("Neville", 4);
@@ -96,6 +99,30 @@ namespace PeopleApp
 
             var thing2 = (bob.Name, bob.Children.Count);
             WriteLine($"{thing2.Name} has {thing2.Count} children.");*/
+
+            /*int a = 10;
+            int b = 10;
+            int c = 10;
+            int d = 20;
+            int e = 20;
+
+            WriteLine($"Before: a = {a}, b = {b}, c = {c}");
+
+            bob.PassingParameters(a, ref b, out c);
+            WriteLine($"After: a = {a}, b = {b}, c = {c}");
+
+            // simplified C# 7.0 syntax for the out parameter 
+            bob.PassingParameters(d, ref e, out int f);
+            WriteLine($"After: d = {d}, e = {e}, f = {f}");*/
+
+            var sam = new Person
+            {
+                Name = "Sam",
+                DateOfBirth = new DateTime(1972, 1, 27)
+            };
+            WriteLine(sam.Origin);
+            WriteLine(sam.Greeting);
+            WriteLine(sam.Age);
 
         }
     }
