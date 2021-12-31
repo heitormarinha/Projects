@@ -120,9 +120,33 @@ namespace PeopleApp
                 Name = "Sam",
                 DateOfBirth = new DateTime(1972, 1, 27)
             };
-            WriteLine(sam.Origin);
+            /*WriteLine(sam.Origin);
             WriteLine(sam.Greeting);
-            WriteLine(sam.Age);
+            WriteLine(sam.Age);*/
+
+           // sam.FavoriteIceCream = "Chocolate Fudge";
+           /* WriteLine
+            (
+                $"Sam's favorite ice-crem flavor is {sam.FavoriteIceCream}."
+            );*/
+
+           // sam.FavoritePrimaryColor = "rEd";
+           /* WriteLine
+            (
+                $"Sam's favorite primary color is {sam.FavoritePrimaryColor}."
+            );/*
+            
+            sam.Children.Add(new Person { Name = "Charlie" });
+            sam.Children.Add(new Person { Name = "Ella" });*/
+
+            // Old type of acess.
+            WriteLine($"Sam's first child is {sam.Children[0].Name}");
+            WriteLine($"Sam's second child is {sam.Children[1].Name}");
+
+            // New type of acess.
+            WriteLine($"Sam's first child is {sam[0].Name}");
+            WriteLine($"Sam's second child is {sam[1].Name}");
+            
 
         }
     }
