@@ -12,9 +12,4 @@ public record ImmutableVehicle
     public string? Brand { get; init; }
     
 }
-public record ImmutableAnimal  
-{    
-string? Name; // i.e. public init-only properties   
-string? Species;
-
-}
+public record ImmutableAnimal(string Name, string Species);

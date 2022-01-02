@@ -211,7 +211,10 @@ namespace PeopleApp
                 arg1: repaintedCar.Color
             );*/
 
-        var oscar = new Immutabl
+        var oscar = new ImmutableAnimal("Oscar", "Labrador" ); // I am declaring a variable oscar and I am assigning for it a new instance of record ImmutableAnimal ans I am passing the arguments "Oscar" and "Labrador" with literal valulestring type. 
+
+        var (who, what) = oscar; // I am calling a desconstruct method.
+        WriteLine($"{who} is a {what}");
 
         }
     }
