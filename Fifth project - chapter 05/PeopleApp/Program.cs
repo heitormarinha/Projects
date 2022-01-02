@@ -11,17 +11,17 @@ namespace PeopleApp
         // I am writing in static mode, without type  the Main method.
         static void Main()
         {
-            var bob = new Person(); // I am declaring a local varialble in inference mode (var)named bob and assigning it with a object Person type. 
+           // var bob = new Person(); // I am declaring a local varialble in inference mode (var)named bob and assigning it with a object Person type. 
             
-            bob.Name = "Bob Smith"; // I am writing a type named bob, setting its property field member named "Name" and assigning it with Bob Smith Literal value.
+           // bob.Name = "Bob Smith"; // I am writing a type named bob, setting its property field member named "Name" and assigning it with Bob Smith Literal value.
 
-            bob.DateOfBirth = new DateTime(1965, 12, 22);// I am writing a type named bob, setting its property field member named "DateOfBirth" and assigning it with a DateTime type tha is passing the atguments "1965, 12, 22".
+           // bob.DateOfBirth = new DateTime(1965, 12, 22);// I am writing a type named bob, setting its property field member named "DateOfBirth" and assigning it with a DateTime type tha is passing the atguments "1965, 12, 22".
 
-            bob.Children.Add(new Person {Name = "Alfred"});// I am writing a type named  bob, setting its List<t>(<t> is generic) property method member named "Children" which is setting its "Add" member and is passin a argument of "Person" type contructed ("new") and is setting the Name field type with "Alfred" literal valule.
+           // bob.Children.Add(new Person {Name = "Alfred"});// I am writing a type named  bob, setting its List<t>(<t> is generic) property method member named "Children" which is setting its "Add" member and is passin a argument of "Person" type contructed ("new") and is setting the Name field type with "Alfred" literal valule.
 
-            bob.Children.Add(new Person {Name = "Zoe"}); // I am writing a type named bob, setting its List of generic (List<T>) property method member named "Children" which is setting its "Add" member and is passing with arguments the constructed (new) Person type which is setting the Name field type with "Zoe" literal value.
+            //bob.Children.Add(new Person {Name = "Zoe"}); // I am writing a type named bob, setting its List of generic (List<T>) property method member named "Children" which is setting its "Add" member and is passing with arguments the constructed (new) Person type which is setting the Name field type with "Zoe" literal value.
 
-            bob.FavoriteAncientWonder = WondersOfTheAncientWorld.StatueOfZeusAtOlympia;// I am writing a type named bob, setting the enum type FavoriteAncientWonder and setting it with WondersOfTheAncientWorld.StatueOfZeusAtOlympia bucketlist.
+           // bob.FavoriteAncientWonder = WondersOfTheAncientWorld.StatueOfZeusAtOlympia;// I am writing a type named bob, setting the enum type FavoriteAncientWonder and setting it with WondersOfTheAncientWorld.StatueOfZeusAtOlympia bucketlist.
 
 
             
@@ -115,11 +115,11 @@ namespace PeopleApp
             bob.PassingParameters(d, ref e, out int f);
             WriteLine($"After: d = {d}, e = {e}, f = {f}");*/
 
-            var sam = new Person
+           /* var sam = new Person
             {
                 Name = "Sam",
                 DateOfBirth = new DateTime(1972, 1, 27)
-            };
+            };*/
             /*WriteLine(sam.Origin);
             WriteLine(sam.Greeting);
             WriteLine(sam.Age);*/
@@ -147,7 +147,7 @@ namespace PeopleApp
             WriteLine($"Sam's first child is {sam[0].Name}");
             WriteLine($"Sam's second child is {sam[1].Name}");*/
             
-            object[] passengers = 
+           /* object[] passengers = 
             {
                 new FirstClassPassenger { AirMiles = 1_419 },
                 new FirstClassPassenger { AirMiles = 16_562 },            
@@ -160,7 +160,7 @@ namespace PeopleApp
             { 
                 decimal flightCost = passenger switch 
                 {
-                    /*// Old.
+                   /*  Old.
                     FirstClassPassenger p when p.AirMiles > 35000 => 1500M, 
                     FirstClassPassenger p when p.AirMiles > 15000 => 1750M,
                     FirstClassPassenger _ => 2000M,
@@ -170,22 +170,48 @@ namespace PeopleApp
                     _ => 800M
                     };*/
 
-                    FirstClassPassenger p => p.AirMiles switch 
+                   /* FirstClassPassenger p => p.AirMiles switch 
                     {
                         > 35000 => 1500M,
                         > 15000 => 1750M,
                         _ => 2000M,
-                    },
+                    },*/
                     
-                    BusinessClassPassenger => 1000M,
+                  /*  BusinessClassPassenger => 1000M,
                     CoachClassPassenger p when p.CarryOnKG < 10.0 => 500M,
                     CoachClassPassenger => 650M,
                     _ => 800M
 
-                };
+                };*/
 
-                WriteLine($"Flight costs {flightCost:C} for {passenger}");
-            }
+            /*WriteLine($"Flight costs {flightCost:C} for {passenger}");*/
+            
+            /*var jeff = new ImmutablePerson
+            {
+                FirstName = "Jeff",
+                LastName = "Winger"
+                
+            };*/
+
+            // jeff.FirstName = "Geoff";
+
+            /*var car = new ImmutableVehicle
+            {
+                Brand = "Mazda Mx RF",
+                Color = "Soul Red Crystal Metallic",
+                Wheels = 4
+            };
+
+            var repaintedCar = car with { Color = "Polymetal Grey Metallic" };
+
+            WriteLine
+            (
+                "Original color was {0}, new color is {1}.",
+                arg0:car.Color,
+                arg1: repaintedCar.Color
+            );*/
+
+        var oscar = new Immutabl
 
         }
     }
