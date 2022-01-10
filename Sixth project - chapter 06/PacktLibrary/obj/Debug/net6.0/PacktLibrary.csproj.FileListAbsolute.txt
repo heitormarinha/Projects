@@ -1,0 +1,12 @@
+E:\System folder\Documentos\CSProjects\Sixth project - chapter 06\PacktLibrary\bin\Debug\net6.0\PacktLibrary.deps.json
+E:\System folder\Documentos\CSProjects\Sixth project - chapter 06\PacktLibrary\bin\Debug\net6.0\PacktLibrary.dll
+E:\System folder\Documentos\CSProjects\Sixth project - chapter 06\PacktLibrary\bin\Debug\net6.0\ref\PacktLibrary.dll
+E:\System folder\Documentos\CSProjects\Sixth project - chapter 06\PacktLibrary\bin\Debug\net6.0\PacktLibrary.pdb
+E:\System folder\Documentos\CSProjects\Sixth project - chapter 06\PacktLibrary\obj\Debug\net6.0\PacktLibrary.csproj.AssemblyReference.cache
+E:\System folder\Documentos\CSProjects\Sixth project - chapter 06\PacktLibrary\obj\Debug\net6.0\PacktLibrary.GeneratedMSBuildEditorConfig.editorconfig
+E:\System folder\Documentos\CSProjects\Sixth project - chapter 06\PacktLibrary\obj\Debug\net6.0\PacktLibrary.AssemblyInfoInputs.cache
+E:\System folder\Documentos\CSProjects\Sixth project - chapter 06\PacktLibrary\obj\Debug\net6.0\PacktLibrary.AssemblyInfo.cs
+E:\System folder\Documentos\CSProjects\Sixth project - chapter 06\PacktLibrary\obj\Debug\net6.0\PacktLibrary.csproj.CoreCompileInputs.cache
+E:\System folder\Documentos\CSProjects\Sixth project - chapter 06\PacktLibrary\obj\Debug\net6.0\PacktLibrary.dll
+E:\System folder\Documentos\CSProjects\Sixth project - chapter 06\PacktLibrary\obj\Debug\net6.0\ref\PacktLibrary.dll
+E:\System folder\Documentos\CSProjects\Sixth project - chapter 06\PacktLibrary\obj\Debug\net6.0\PacktLibrary.pdb

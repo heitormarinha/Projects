@@ -10,9 +10,9 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/Fifth project - chapter 05/PeopleApp/bin/Debug/net6.0/PeopleApp.dll",
+            "program": "${workspaceFolder}/Sixth project - chapter 06/PeopleApp/bin/Debug/net6.0/PeopleApp.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/Fifth project - chapter 05/PeopleApp",
+            "cwd": "${workspaceFolder}/Sixth project - chapter 06/PeopleApp",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
             "console": "internalConsole",
             "stopAtEntry": false

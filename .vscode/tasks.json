@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/Fifth project - chapter 05/PeopleApp/PeopleApp.csproj",
+                "${workspaceFolder}/Sixth project - chapter 06/PeopleApp/PeopleApp.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -19,7 +19,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/Fifth project - chapter 05/PeopleApp/PeopleApp.csproj",
+                "${workspaceFolder}/Sixth project - chapter 06/PeopleApp/PeopleApp.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -32,8 +32,9 @@
             "args": [
                 "watch",
                 "run",
-                "--project",
-                "${workspaceFolder}/Fifth project - chapter 05/PeopleApp/PeopleApp.csproj"
+                "${workspaceFolder}/Sixth project - chapter 06/PeopleApp/PeopleApp.csproj",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:NoSummary"
             ],
             "problemMatcher": "$msCompile"
         }
