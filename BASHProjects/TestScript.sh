@@ -1,3 +1,1 @@
-#!/bin/bash
-
-echo "Hello, Word!"
+#!/usr/bin/env bash
