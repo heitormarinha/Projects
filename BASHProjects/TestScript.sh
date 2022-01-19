@@ -1,4 +1,3 @@
-#!pathBash 
-
+#!/bin/bash
 
 echo "Hello, Word!"
