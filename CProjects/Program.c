@@ -8,20 +8,17 @@
 
 
 // Rosolves DNS.
-void DNSResolver(char *target[])
+void DNSResolver(char *target)
 {
-    struct hostent *targetDomain = gethostbyname(target[1]);
-    printf("IP: %s\n", inet_ntoa(*((struct in_addr *)targetDomain->h_addrtype)));
+    struct hostent *targetDomain = gethostbyname(target);
+    printf("IP: %s\n", inet_ntoa(*((struct in_addr *)targetDomain->h_name)));
 }
 
 //Port Scan.
-void PortScan(char *target[])
+void PortScan(char *target)
 {
     int mySocket;
     int connectMySocket;
-    char *destination = target[0];
-    
-    
     struct sockaddr_in targetSocket;
 
     for (int port=0;port<65535;port++)
@@ -29,10 +26,9 @@ void PortScan(char *target[])
         mySocket = socket(AF_INET,SOCK_STREAM,0);
         targetSocket.sin_family = AF_INET;
         targetSocket.sin_port = htons(port);
-        targetSocket.sin_addr.s_addr = inet_addr(destination);
-
+        targetSocket.sin_addr.s_addr = inet_addr(target);
         connectMySocket = connect(mySocket, (struct sockaddr *)&targetSocket, sizeof targetSocket);
-
+        
         if(connectMySocket)
         {
             printf("The port %d is opened.\n",port);
@@ -41,6 +37,7 @@ void PortScan(char *target[])
         }
         else
         {
+            printf("The port %d is closed.\n",port);
             close(mySocket);
             close(connectMySocket);
         }
@@ -48,12 +45,10 @@ void PortScan(char *target[])
 }
 
 // DOS to a target
-void DenialOfService(char *target[],  int port)
+void DenialOfService(char *target,  int port)
 {
     int mySocket;
-    int connectMySocket;
-    char *destination = target[0];
-   
+    int connectMySocket; 
     
     struct sockaddr_in targetSocket;
 
@@ -61,7 +56,7 @@ void DenialOfService(char *target[],  int port)
     mySocket = socket(AF_INET,SOCK_STREAM,0);
     targetSocket.sin_family = AF_INET;
     targetSocket.sin_port = htons(port);
-    targetSocket.sin_addr.s_addr = inet_addr(destination);
+    targetSocket.sin_addr.s_addr = inet_addr(target);
     /*................................*/ 
     
     while (port != 0)
@@ -75,8 +70,10 @@ void DenialOfService(char *target[],  int port)
 
 void main ()
 {
+   char target;
+   int input;
    printf ("type 1 to DNS resolver, 2 to prot scan and 3 to DoNS atack ");
-   int input = scanf("%i",&input);
+   scanf("%i",&input);
 
    
    switch (input)
@@ -84,25 +81,26 @@ void main ()
         
         case 1:
             printf("Type a target - eg: businesscorp.com.");
-            char *target = scanf("%s",&target);
-            DNSResolver(target);
+            scanf("%s",&target);
+            DNSResolver(&target);
             break;
+       
         case 2:
             printf("Type a target - eg: IP adress.");
-            char *target = scanf("%s",&target);
-            PortScan(target);
+            scanf("%s",&target);
+            PortScan(&target);
             break;
         case 3:
             printf("Type a target  - eg: IP adress.");
-            char *target = scanf("%s",&target);
+            scanf("%s",&target);
             printf("Type a port- eg: IP 8080");
             int port = scanf("%i",&port);
-            DenialOfService(target,port);
+            scanf("%s",&target);
+            DenialOfService(&target,port);
             break;
         default:
             printf("Please, you must type one number of menu");
-            break;
-        
-        
+            break;      
     }
+
 }
