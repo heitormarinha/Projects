@@ -10,8 +10,8 @@
 // Rosolves DNS.
 void DNSResolver(char *target[])
 {
-    struct hostent *targetDomain = gethostbyname(target[0]);
-    printf("IP: %s\n", inet_ntoa(*((struct in_addr *)targetDomain->h_addr)));
+    struct hostent *targetDomain = gethostbyname(target[1]);
+    printf("IP: %s\n", inet_ntoa(*((struct in_addr *)targetDomain->h_addrtype)));
 }
 
 //Port Scan.
@@ -78,22 +78,23 @@ void main ()
    printf ("type 1 to DNS resolver, 2 to prot scan and 3 to DoNS atack ");
    int input = scanf("%i",&input);
 
-    
+   
    switch (input)
     {
+        
         case 1:
             printf("Type a target - eg: businesscorp.com.");
-            char *target[] = {fgets(target[0],16,stdin)};
+            char *target = scanf("%s",&target);
             DNSResolver(target);
             break;
         case 2:
             printf("Type a target - eg: IP adress.");
-            *target = {fgets(target[0],16,stdin)};
+            char *target = scanf("%s",&target);
             PortScan(target);
             break;
         case 3:
             printf("Type a target  - eg: IP adress.");
-            *target = {fgets(target[0],16,stdin)};
+            char *target = scanf("%s",&target);
             printf("Type a port- eg: IP 8080");
             int port = scanf("%i",&port);
             DenialOfService(target,port);
