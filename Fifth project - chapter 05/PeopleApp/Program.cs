@@ -147,13 +147,13 @@ namespace PeopleApp
             WriteLine($"Sam's first child is {sam[0].Name}");
             WriteLine($"Sam's second child is {sam[1].Name}");*/
             
-           /* object[] passengers = 
+            object[] passengers = 
             {
                 new FirstClassPassenger { AirMiles = 1_419 },
                 new FirstClassPassenger { AirMiles = 16_562 },            
                 new BusinessClassPassenger(),
-                new CoachClassPassenger { CarryOnKG = 25.7 },
-                new CoachClassPassenger { CarryOnKG = 0 },
+                new CoachClassPassenger { CarryOnKG = 25.7M },
+                new CoachClassPassenger { CarryOnKG = 0.0M },
             };
 
             foreach (object  passenger in passengers)
@@ -170,21 +170,26 @@ namespace PeopleApp
                     _ => 800M
                     };*/
 
-                   /* FirstClassPassenger p => p.AirMiles switch 
+                    FirstClassPassenger p => p.AirMiles switch 
                     {
                         > 35000 => 1500M,
                         > 15000 => 1750M,
-                        _ => 2000M,
-                    },*/
+                        _ => 2000M
+                    },
                     
-                  /*  BusinessClassPassenger => 1000M,
-                    CoachClassPassenger p when p.CarryOnKG < 10.0 => 500M,
-                    CoachClassPassenger => 650M,
+                    BusinessClassPassenger => 1000M,
+                    
+                    CoachClassPassenger p => p.CarryOnKG switch
+                    {
+                        < 10.0M => 500M,
+                        _ => 650M
+                    }, 
                     _ => 800M
 
-                };*/
+                };
 
-            /*WriteLine($"Flight costs {flightCost:C} for {passenger}");*/
+                WriteLine($"Flight costs {flightCost:C} for {passenger}");
+            }
             
             /*var jeff = new ImmutablePerson
             {

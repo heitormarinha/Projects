@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\heito\\.nuget\\packages\\": {}
+    "/home/heitor/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Documents\\CSProjects\\Fifth project - chapter 05\\PacktLibrary\\PacktLibrary.csproj",
+      "projectUniqueName": "/home/heitor/Documents/Projects/Fifth project - chapter 05/PacktLibrary/PacktLibrary.csproj",
       "projectName": "PacktLibrary",
-      "projectPath": "E:\\Documents\\CSProjects\\Fifth project - chapter 05\\PacktLibrary\\PacktLibrary.csproj",
-      "packagesPath": "C:\\Users\\heito\\.nuget\\packages\\",
-      "outputPath": "E:\\Documents\\CSProjects\\Fifth project - chapter 05\\PacktLibrary\\obj\\",
+      "projectPath": "/home/heitor/Documents/Projects/Fifth project - chapter 05/PacktLibrary/PacktLibrary.csproj",
+      "packagesPath": "/home/heitor/.nuget/packages/",
+      "outputPath": "/home/heitor/Documents/Projects/Fifth project - chapter 05/PacktLibrary/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\heito\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/home/heitor/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -58,7 +58,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
       }
     }
   }

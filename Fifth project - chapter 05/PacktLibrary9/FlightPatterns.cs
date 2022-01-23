@@ -10,6 +10,6 @@ public class FirstClassPassenger
 } 
 public class CoachClassPassenger
 {
-    public double CarryOnKG { get; set; }
+    public decimal CarryOnKG { get; set; }
     public override string ToString() => $"Coach Class with {CarryOnKG:N2} KG carry on";
 }

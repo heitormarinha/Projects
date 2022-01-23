@@ -1,72 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Documents\\CSProjects\\Fifth project - chapter 05\\PeopleApp\\PeopleApp.csproj": {}
+    "/home/heitor/Documents/Projects/Fifth project - chapter 05/PeopleApp/PeopleApp.csproj": {}
   },
   "projects": {
-    "E:\\Documents\\CSProjects\\Fifth project - chapter 05\\PacktLibrary9\\PacktLibrary9.csproj": {
+    "/home/heitor/Documents/Projects/Fifth project - chapter 05/PacktLibrary/PacktLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Documents\\CSProjects\\Fifth project - chapter 05\\PacktLibrary9\\PacktLibrary9.csproj",
-        "projectName": "PacktLibrary9",
-        "projectPath": "E:\\Documents\\CSProjects\\Fifth project - chapter 05\\PacktLibrary9\\PacktLibrary9.csproj",
-        "packagesPath": "C:\\Users\\heito\\.nuget\\packages\\",
-        "outputPath": "E:\\Documents\\CSProjects\\Fifth project - chapter 05\\PacktLibrary9\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\heito\\AppData\\Roaming\\NuGet\\NuGet.Config"
-        ],
-        "originalTargetFrameworks": [
-          "net6.0"
-        ],
-        "sources": {
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "E:\\Documents\\CSProjects\\Fifth project - chapter 05\\PacktLibrary\\PacktLibrary.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "E:\\Documents\\CSProjects\\Fifth project - chapter 05\\PacktLibrary\\PacktLibrary.csproj",
+        "projectUniqueName": "/home/heitor/Documents/Projects/Fifth project - chapter 05/PacktLibrary/PacktLibrary.csproj",
         "projectName": "PacktLibrary",
-        "projectPath": "E:\\Documents\\CSProjects\\Fifth project - chapter 05\\PacktLibrary\\PacktLibrary.csproj",
-        "packagesPath": "C:\\Users\\heito\\.nuget\\packages\\",
-        "outputPath": "E:\\Documents\\CSProjects\\Fifth project - chapter 05\\PacktLibrary\\obj\\",
+        "projectPath": "/home/heitor/Documents/Projects/Fifth project - chapter 05/PacktLibrary/PacktLibrary.csproj",
+        "packagesPath": "/home/heitor/.nuget/packages/",
+        "outputPath": "/home/heitor/Documents/Projects/Fifth project - chapter 05/PacktLibrary/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\heito\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/heitor/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -104,21 +52,73 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Documents\\CSProjects\\Fifth project - chapter 05\\PeopleApp\\PeopleApp.csproj": {
+    "/home/heitor/Documents/Projects/Fifth project - chapter 05/PacktLibrary9/PacktLibrary9.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Documents\\CSProjects\\Fifth project - chapter 05\\PeopleApp\\PeopleApp.csproj",
-        "projectName": "PeopleApp",
-        "projectPath": "E:\\Documents\\CSProjects\\Fifth project - chapter 05\\PeopleApp\\PeopleApp.csproj",
-        "packagesPath": "C:\\Users\\heito\\.nuget\\packages\\",
-        "outputPath": "E:\\Documents\\CSProjects\\Fifth project - chapter 05\\PeopleApp\\obj\\",
+        "projectUniqueName": "/home/heitor/Documents/Projects/Fifth project - chapter 05/PacktLibrary9/PacktLibrary9.csproj",
+        "projectName": "PacktLibrary9",
+        "projectPath": "/home/heitor/Documents/Projects/Fifth project - chapter 05/PacktLibrary9/PacktLibrary9.csproj",
+        "packagesPath": "/home/heitor/.nuget/packages/",
+        "outputPath": "/home/heitor/Documents/Projects/Fifth project - chapter 05/PacktLibrary9/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\heito\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/heitor/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/heitor/Documents/Projects/Fifth project - chapter 05/PeopleApp/PeopleApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/heitor/Documents/Projects/Fifth project - chapter 05/PeopleApp/PeopleApp.csproj",
+        "projectName": "PeopleApp",
+        "projectPath": "/home/heitor/Documents/Projects/Fifth project - chapter 05/PeopleApp/PeopleApp.csproj",
+        "packagesPath": "/home/heitor/.nuget/packages/",
+        "outputPath": "/home/heitor/Documents/Projects/Fifth project - chapter 05/PeopleApp/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/heitor/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -130,11 +130,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "E:\\Documents\\CSProjects\\Fifth project - chapter 05\\PacktLibrary9\\PacktLibrary9.csproj": {
-                "projectPath": "E:\\Documents\\CSProjects\\Fifth project - chapter 05\\PacktLibrary9\\PacktLibrary9.csproj"
+              "/home/heitor/Documents/Projects/Fifth project - chapter 05/PacktLibrary/PacktLibrary.csproj": {
+                "projectPath": "/home/heitor/Documents/Projects/Fifth project - chapter 05/PacktLibrary/PacktLibrary.csproj"
               },
-              "E:\\Documents\\CSProjects\\Fifth project - chapter 05\\PacktLibrary\\PacktLibrary.csproj": {
-                "projectPath": "E:\\Documents\\CSProjects\\Fifth project - chapter 05\\PacktLibrary\\PacktLibrary.csproj"
+              "/home/heitor/Documents/Projects/Fifth project - chapter 05/PacktLibrary9/PacktLibrary9.csproj": {
+                "projectPath": "/home/heitor/Documents/Projects/Fifth project - chapter 05/PacktLibrary9/PacktLibrary9.csproj"
               }
             }
           }
@@ -163,7 +163,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
         }
       }
     }
